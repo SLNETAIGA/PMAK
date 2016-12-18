@@ -1,0 +1,16 @@
+% Example PMAK file
+
+% Define variables and constants
+% Set compiler
+CONST HC ghc
+
+% Set source files
+SRC is *.hs
+
+% Set output file
+O is out.exe
+
+% Main label
+. all
+@ HC -o O SRC 
+$ End.
